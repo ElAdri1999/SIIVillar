@@ -1,0 +1,164 @@
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+nav{
+	background-color: rgb(36,35,51);
+	padding: 5px;
+	width: 100%;
+	top: 0px;
+	/* text-align: center; */
+	position: sticky;
+	position: -webkit-sticky;
+	color: rgb(225,225,225);
+	font-weight: bold;
+	font-family: Inconsolata;
+}
+
+nav a{
+	text-decoration: none;
+	color: rgb(225,225,175);
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.linkmenu{
+	display: inline-block;
+	padding: 15px;
+}
+
+.caja img{
+
+	width: 35%;
+	margin-left: 15%;
+}
+.caja h2{
+	width: 35%;
+	margin-left: 55%;
+}
+
+aside{
+	border: 2px solid black;
+	border-radius: 25px;
+	position: fixed;
+	top: 25%;
+	left: 65%;
+	height: auto;
+	background-color: rgb(36,35,51);
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 50px;
+	padding-left: 50px;
+	text-align: center;
+	font-family: Inconsolata;
+}
+
+aside h3{
+	color: rgb(225,225,225);
+}
+
+aside a{
+	text-decoration: none;
+	color: rgb(136,135,151);
+	background-color: rgb(236,235,251);
+	padding: 5px;
+	border-radius: 5px;
+}
+
+main, .ejemplo {
+	text-align: center;
+	color: #121867;
+	font-family: Inconsolata;
+	width: 95%;
+}
+
+.servidor{
+	display: inline-block;
+}
+
+.mantenimiento{
+	display: inline-block;
+}
+
+.networking{
+	display: inline-block;
+}
+
+.pc{
+	display: inline-block;
+}
+
+.texto{
+	margin-left:5%;
+	margin-right: 30%;
+	text-align: center;
+	margin-top:40px;
+	font-weight: bold;
+	font-family: Inconsolata;
+}
+
+.texto img{
+	display: inline-block;
+	width: 20%;
+	float: left;
+}
+
+.texto div{
+	font-size: 1.5em;
+	color: #121867;
+}
+
+.texto li{
+	margin-left:20%;
+}
+
+.texto div:first-letter, .texto li:first-letter {
+	font-size: 2em;
+	color: rgb(255,0,0);
+	border-bottom:1px solid blue;
+	border-right: 1px solid blue;
+}
+
+.imagenes img{
+	float: left;
+	width: 95px;
+	height:95px;
+}
+
+.ejemplo{
+	font-size: 1.5em;
+	margin-left:5%;
+	margin-right: 30%;
+	margin-top:40px;
+	margin-bottom: 40px;
+}
+
+.ejemplo img{
+	float: right;
+	width: 50%;
+	display: inline-block;
+}
+
+
+footer{
+	width: 100%;
+	background-color: rgb(36,35,51);
+	color: rgb(225,225,225);
+	column-count: 3;
+	-webkit-column-count: 3;
+	column-gap: 100px;
+	margin-top: 50px;
+	font-weight: bold;
+	font-family: Inconsolata;
+
+}
+
+footer address{
+	font-size: 0.7em;
+}
+
+footer img{
+	width: 75px;
+	height: 75px;
+}
